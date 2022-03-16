@@ -1,0 +1,17 @@
+[features]
+seeds = false
+[programs.devnet]
+primerprograma = "GS5wb23xGxenm1HViR4JKakKAwrELpVepecHC46p3MFU"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/juancano/.config/solana/id.json"
+
+[scripts]
+test = "node tests/primerprograma.js" 
+
+[test]
+startup_wait = 100000
